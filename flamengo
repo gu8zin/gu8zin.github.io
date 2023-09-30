@@ -1,0 +1,12 @@
+mkdir scripts  # Crie uma pasta para os scripts, se já não existir
+mv meu_lancador.py scripts/  # Mova o seu script para a pasta 'scripts'
+
+# Adicione as alterações ao Git
+git add scripts/meu_lancador.py
+
+# Faça um commit com uma mensagem descritiva
+git commit -m "Adicionei meu script de lançamento"
+
+# Envie as alterações para o GitHub
+git push origin main  # Ou 'git push origin master' se você estiver usando a branch 'master'
+
